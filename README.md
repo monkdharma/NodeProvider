@@ -10,9 +10,8 @@
 可选步骤\
 ●[性能测试](https://www.yuque.com/sunny-w2vvd/wbu6m6/gyzibe4ry64685of)\
 故障排除\
-●[FAQ](https://www.yuque.com/sunny-w2vvd/wbu6m6/sz7vofcat6n78oov)\
+●[FAQ](https://www.yuque.com/sunny-w2vvd/wbu6m6/sz7vofcat6n78oov)
 
 
-若有收获，就点个赞吧
 
 \
