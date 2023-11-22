@@ -10,17 +10,23 @@
 
 ### STEP 2 - 构建 Kubernetes 集群 <a href="#kfddd" id="kfddd"></a>
 
+> NOTE - 使用 kubespray 构建 Kubernetes 集群，您无需预先在每个节点安装 Container RunTime。
+>
+> 我们推荐使用 Docker 因为它在使用上更加简单容易上手。
+
 要创建一个 Kubernetes 集群，您可以使用像 kubespray 这样的部署工具。您可以按照以下步骤进行：
 
 * [Kubespray Quick Start](https://github.com/kubernetes-sigs/kubespray)
 
-注意 - 如果您只有一个主机，希望运行一个 all-in-one 节点，无需额外配置，您可以正常创建 Pods。 此外，如果您希望有一个独立的 kube\_control\_plane 节点，并且不希望此节点成为工作节点，您还需要修改 inventory/mycluster/hosts.yaml 以从 kube\_node 中删除该节点。
+如果您只有一个主机，希望运行一个 **all-in-one** 节点，无需额外配置，您可以正常创建 Pods。&#x20;
+
+此外，如果您希望有一个独立的 **kube\_control\_plane** 节点，并且不希望此节点成为工作节点，您还需要修改 `inventory/mycluster/hosts.yaml` 以从 kube\_node 中删除该节点。
 
 ### STEP 3 - 安装 NVIDIA 插件 <a href="#qfp0u" id="qfp0u"></a>
 
 #### 安装 NVIDIA Container Toolkit <a href="#rxq4w" id="rxq4w"></a>
 
-注意 - 本节中的步骤应在托管 GPU 资源的所有 Kubernetes 节点上完成。
+> NOTE - 本节中的步骤应在托管 GPU 资源的所有 Kubernetes 节点上完成。
 
 * [Installing the NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#nvidia-drivers)
 
@@ -74,14 +80,6 @@ ansible-playbook -i inventory/mycluster/hosts.yml remove-node.yml -b -v \ --priv
 ```
 
 If a node is completely unreachable by ssh, add `--extra-vars reset_nodes=false` to skip the node reset step. If one node is unavailable, but others you wish to remove are able to connect via SSH, you could set `reset_nodes=false` as a host var in inventory.
-
-针对 all in on 和 复用master节点是否要打标签写一个注意事项
-
-k8s默认配置
-
-* container runtime 使用 docker
-* dns
-* network
 
 #### 删除集群 <a href="#amtil" id="amtil"></a>
 

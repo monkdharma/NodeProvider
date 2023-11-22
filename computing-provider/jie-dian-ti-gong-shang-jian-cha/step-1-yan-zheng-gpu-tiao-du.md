@@ -2,7 +2,7 @@
 
 检查 Kubernetes 是否能够正常调度 GPU 资源
 
-```bash
+```
 cat <<EOF | kubectl apply -f -
 apiVersion: v1
 kind: Pod
@@ -25,7 +25,7 @@ EOF
 
 示例输出:
 
-```bash
+```
 $ kubectl logs gpu-pod
 [Vector addition of 50000 elements]
 Copy input data from the host memory to the CUDA device

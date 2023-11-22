@@ -4,7 +4,7 @@
 
 然后，您可以输入以下命令启动 gpu-burn 对 GPU 进行测试：
 
-```bash
+```
 docker run --rm --gpus all gshaibi/gpu-burn -d 36000
 ```
 
