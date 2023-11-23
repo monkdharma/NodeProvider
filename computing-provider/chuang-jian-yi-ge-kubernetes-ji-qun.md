@@ -32,7 +32,7 @@
 
 #### 安装 NVIDIA GPU Operator <a href="#ihbbj" id="ihbbj"></a>
 
-* [**Install NVIDIA GPU Operator**](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
+* [Install NVIDIA GPU Operator](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
 
 ### STEP 4 - 安装 Ingress-nginx Controller <a href="#hclpq" id="hclpq"></a>
 
