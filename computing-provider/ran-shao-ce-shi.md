@@ -10,10 +10,10 @@ docker run --rm --gpus all gshaibi/gpu-burn -d 36000
 
 您还应该验证您的内存、CPU 和磁盘是否足够完成任务。您可以输入以下命令启动 stress-ng 对 CPU 和 Memory 进行测试:
 
-* 开启6个CPU进程执行sqrt计算，180秒后结束
+* 开启6个CPU进程执行sqrt计算，程序将在1天后结束运行
 
 ```
-docker run -it --rm podwise/stress-ng:latest --cpu 6 --timeout 180s
+docker run -it --rm podwise/stress-ng:latest --cpu 6 --timeout 86400s
 ```
 
 \
