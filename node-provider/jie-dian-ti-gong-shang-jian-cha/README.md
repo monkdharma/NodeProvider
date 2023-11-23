@@ -4,5 +4,5 @@
 
 在本指南中，我们提供了在初始构建后以及提供商的整个生命周期中检查提供商健康状态的路径。 指南分为以下几个部分：
 
-* [验证GPU调度](https://www.yuque.com/sunny-w2vvd/wbu6m6/fnvtkmxq2t3fbzf0)
-* [服务发布验证](https://www.yuque.com/sunny-w2vvd/wbu6m6/kdn6k9ugznqixo06)
+* [验证GPU调度](step-1-yan-zheng-gpu-tiao-du.md)
+* [服务发布验证](step-2-fu-wu-fa-bu-yan-zheng.md)
