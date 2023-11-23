@@ -11,7 +11,7 @@
 
 #### 可选步骤
 
-* [性能测试](computing-provider/xing-neng-ce-shi.md)
+* [性能测试](computing-provider/ran-shao-ce-shi.md)
 
 #### 故障排除
 

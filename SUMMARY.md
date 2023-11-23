@@ -7,5 +7,5 @@
   * [节点提供商检查](computing-provider/jie-dian-ti-gong-shang-jian-cha/README.md)
     * [STEP 1 - 验证 GPU 调度](computing-provider/jie-dian-ti-gong-shang-jian-cha/step-1-yan-zheng-gpu-tiao-du.md)
     * [STEP 2 - 服务发布验证](computing-provider/jie-dian-ti-gong-shang-jian-cha/step-2-fu-wu-fa-bu-yan-zheng.md)
-  * [性能测试](computing-provider/xing-neng-ce-shi.md)
+  * [燃烧测试](computing-provider/ran-shao-ce-shi.md)
   * [FAQ](computing-provider/faq.md)
