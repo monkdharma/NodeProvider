@@ -2,7 +2,7 @@
 
 ### 软件规格 <a href="#hpaxl" id="hpaxl"></a>
 
-* Ubuntu 20.04 or Ubuntu 22.04 (Ubuntu 22.04 is recommended)
+* Ubuntu 22.04&#x20;
 * 能够通过 SSH 远程连接
 * 所有 GPU 节点[安装 NVIDIA 驱动](https://ubuntu.com/server/docs/nvidia-drivers-installation)
 
