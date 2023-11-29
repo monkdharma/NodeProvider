@@ -16,3 +16,4 @@
   * 推荐使用 1TB 或更大容量的内存，适用于8个 80GB vRAM 的 GPU 配置。
 * 1TiB 或更多的硬盘空闲空间
 * NVIDIA GeForce RTX 30xx and RTX 40xx 系列或更高
+*
