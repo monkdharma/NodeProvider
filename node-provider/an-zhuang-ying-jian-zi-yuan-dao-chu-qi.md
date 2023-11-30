@@ -9,7 +9,7 @@
 1. 通过 helm 快速安装 crd 及对应的 chart
 
 ```
-helm installl podwise-exporter ./podwise-exporter-1.0.0.tgz
+helm install podwise-exporter ./podwise-exporter-1.0.0.tgz
 ```
 
 2. 查看 helm 是否安装成功
