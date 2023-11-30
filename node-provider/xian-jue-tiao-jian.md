@@ -13,6 +13,7 @@
 * NVIDIA GeForce RTX 30xx and RTX 40xx 系列或更高
   * 选项1：至少10台拥有4个 GPU 的服务器，每个 GPU 至少 12GB VRAM。
   * 选项2：至少20台拥有2个 GPU 的服务器，每个 GPU 至少 12GB VRAM。
+  * 服务器上的所有 GPU 必须属于同一类型。
 * 静态的公共 IP 支持
 * 10 GB 的双向互联网速度。
   * 从这里测试您的互联网速度：[https://www.speedtest.net](https://www.speedtest.net)
