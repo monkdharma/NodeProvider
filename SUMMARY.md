@@ -9,4 +9,4 @@
     * [STEP 2 - 服务发布验证](node-provider/jie-dian-ti-gong-shang-jian-cha/step-2-fu-wu-fa-bu-yan-zheng.md)
   * [燃烧测试](node-provider/ran-shao-ce-shi.md)
   * [FAQ](node-provider/faq.md)
-  * [表格](node-provider/biao-ge.md)
+  * [申请表](node-provider/shen-qing-biao.md)
