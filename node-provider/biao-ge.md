@@ -1,7 +1,5 @@
 # 表格
 
-## 表格
-
 **First name(必填)**
 
 ***
@@ -60,23 +58,21 @@ Country and region.
 
 **Public IP**
 
-
-
-**Static Public IP and ability to port forward for each server.**
+* [ ] **Static Public IP and ability to port forward for each server.**
 
 **Redundancy (必填)**
 
-* \[ ] **No redundancy**
-* \[ ] **Uninterruptible Power Supply (UPS)**
-* \[ ] **Power Generator**
-* \[ ] **Automatic Power Generator**
-* \[ ] **Solar System**
-* \[ ] **24/7 on-site staff+security**
+* [ ] **No redundancy**
+* [ ] **Uninterruptible Power Supply (UPS)**
+* [ ] **Power Generator**
+* [ ] **Automatic Power Generator**
+* [ ] **Solar System**
+* [ ] **24/7 on-site staff+security**
 
 **ISP Redundancy**
 
-* \[ ] **No redundancy**
-* \[ ] **2 ISPs**
-* \[ ] **3+ ISPs**
-* \[ ] **Diversification: LTE/Satellite**
-* \[ ] **BGP for redundant Static IP**
+* [ ] **No redundancy**
+* [ ] **2 ISPs**
+* [ ] **3+ ISPs**
+* [ ] **Diversification: LTE/Satellite**
+* [ ] **BGP for redundant Static IP**
