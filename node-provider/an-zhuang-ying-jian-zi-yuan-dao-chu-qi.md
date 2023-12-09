@@ -2,11 +2,11 @@
 
 节点资源收集器，用于机器节点的快速接入
 
-**Note:** 此应用程序只能运行在 k8s 集群中
+> **NOTE  -** 此应用程序只能运行在 Kubernetes 集群中
 
 #### 快速开始 <a href="#usercontent-kuai-su-kai-shi" id="usercontent-kuai-su-kai-shi"></a>
 
-1. 通过 helm 快速安装 crd 及对应的 chart
+1. 通过 helm 快速安装 CRD 及对应的 chart
 
 ```
 helm install podwise-exporter ./podwise-exporter-1.0.0.tgz
@@ -30,9 +30,9 @@ kubectl get daemonset -n podwise-system
 kubectl get nodes.apps.podwise.io
 ```
 
-5. 卸载 crd 及对应 chart
+5. 卸载 CRD 及对应 chart
 
-**Note** 卸载会级联删除已安装的 crd 及创建的 k8s 资源
+> **NOTE -** 卸载会级联删除已安装的 CRD 及创建的 Kubernetes 资源
 
 ```
 helm uninstall podwise-exporter
