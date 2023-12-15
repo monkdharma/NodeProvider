@@ -8,6 +8,6 @@
   * [安装硬件资源导出器](node-provider/an-zhuang-ying-jian-zi-yuan-dao-chu-qi.md)
   * [节点提供商检查](node-provider/jie-dian-ti-gong-shang-jian-cha/README.md)
     * [STEP 1 - 验证 GPU 调度](node-provider/jie-dian-ti-gong-shang-jian-cha/step-1-yan-zheng-gpu-tiao-du.md)
+  * [加入集群](node-provider/jia-ru-ji-qun.md)
   * [燃烧测试](node-provider/ran-shao-ce-shi.md)
   * [FAQ](node-provider/faq.md)
-* [加入集群](jia-ru-ji-qun.md)
