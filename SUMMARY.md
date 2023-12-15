@@ -10,3 +10,4 @@
     * [STEP 1 - 验证 GPU 调度](node-provider/jie-dian-ti-gong-shang-jian-cha/step-1-yan-zheng-gpu-tiao-du.md)
   * [燃烧测试](node-provider/ran-shao-ce-shi.md)
   * [FAQ](node-provider/faq.md)
+* [加入集群](jia-ru-ji-qun.md)
