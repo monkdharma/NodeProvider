@@ -1,4 +1,4 @@
-# 配置 Ingress
+# 配置 Ingress 端口映射
 
 * 配置端口映射
 
