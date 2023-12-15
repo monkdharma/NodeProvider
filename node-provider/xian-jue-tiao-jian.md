@@ -4,7 +4,7 @@
 
 * Ubuntu 22.04&#x20;
 * 能够通过 SSH 远程连接&#x20;
-* 所有 GPU 节点[安装 NVIDIA 驱动](https://ubuntu.com/server/docs/nvidia-drivers-installation)
+* 所有 GPU 节点[安装 NVIDIA 驱动](https://ubuntu.com/server/docs/nvidia-drivers-installation) (推荐 nvidia-driver-525)
 
 ### 硬件规格 <a href="#lpzfz" id="lpzfz"></a>
 
@@ -14,7 +14,9 @@
 * 2G 网络带宽
 * &#x20;节点机器要求
 
-#### GPUNet Lite (Lite Version  with 3090/4090)
+**最低要求**
+
+GPUNet Lite (Lite Version  with 3090/4090)
 
 | **GPU**          | 2x or 4x NVIDIA RTX **3090/4090,** Note: Server must use the same type of GPU card.   |
 | ---------------- | ------------------------------------------------------------------------------------- |
@@ -24,7 +26,9 @@
 | **Networking**   | <p>Dual Port 10G SFP or BASE-T<br></p>                                                |
 | **Power Supply** | 2x 2000W High-efficiency PSUs                                                         |
 
-#### GPUNet Pro (High-Performance Version with A100)
+**推荐配置**
+
+GPUNet Pro (High-Performance Version with A100)
 
 | **GPU**          | 8x NVIDIA A100                                                                                                                                                                                                                                                      |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -34,7 +38,7 @@
 | **Networking**   | Dual Port 10G SFP or BASE-T                                                                                                                                                                                                                                         |
 | **Power Supply** | 4x hot-swappable 3000W 80 PLUS Titanium PSUs（2 + 2）                                                                                                                                                                                                                 |
 
-#### GPUNet Pro (High-Performance Version with H100)&#x20;
+GPUNet Pro (High-Performance Version with H100)&#x20;
 
 | **GPU**          | 8x NVIDIA H100                                                                                                                                                                                                                                                                                   |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
